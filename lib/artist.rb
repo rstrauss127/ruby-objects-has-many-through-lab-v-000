@@ -19,10 +19,6 @@ class Artist
 
     def genres
       songs.find_all {|song| song.genre}
-      end
-
-
-
     end
 
     def self.all
