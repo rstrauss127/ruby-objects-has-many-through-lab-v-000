@@ -19,8 +19,8 @@ class Artist
 
     def genres
       x = self.songs
-    
-      end
+
+      
     end
 
     def self.all
