@@ -18,7 +18,8 @@ class Artist
     end
 
     def genres
-      songs.find_all {|song| song.genre.name}
+      songs.collect |song|
+      song.genre.name
     end
 
     def self.all
