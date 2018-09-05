@@ -19,7 +19,7 @@ class Artist
 
     def genres
       self.songs.genre
-      end
+      
 
     end
 
