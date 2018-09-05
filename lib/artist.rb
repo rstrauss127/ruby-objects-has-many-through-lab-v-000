@@ -18,9 +18,7 @@ class Artist
     end
 
     def genres
-      x = self.songs
-      x.each do |song|
-        song.genre
+      self.songs.genre
       end
 
     end
