@@ -21,6 +21,7 @@ class Artist
       songs.collect |song|
       song.genre.name
     end
+    end
 
     def self.all
       @@all
