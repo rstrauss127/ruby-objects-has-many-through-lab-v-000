@@ -18,8 +18,8 @@ class Artist
     end
 
     def genres
-      x = songs.collect {|songs| songs.genre}
-      x.uniq
+      x = songs.collect.first {|songs| songs.genre}
+
     end
 
     def self.all
