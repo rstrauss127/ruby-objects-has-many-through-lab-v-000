@@ -18,7 +18,7 @@ class Artist
     end
 
     def genres
-      Genre.all
+      Genre.artists
     end
 
     def self.all
