@@ -7,7 +7,7 @@ class Genre
   def initialize(name)
     @name = name
     @@all << self
-  
+
   end
 
   def self.all
@@ -23,8 +23,6 @@ class Genre
   end
 
   def artists
-    Artist.genres
-
-
+    self.songs.collect {|song| song.artist}
   end
 end
