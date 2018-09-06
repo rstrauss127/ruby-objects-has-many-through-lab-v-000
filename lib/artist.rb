@@ -18,7 +18,7 @@ class Artist
     end
 
     def genres
-      self.songs.genre.first
+      Song.all.genre.first
 
     end
 
