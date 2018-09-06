@@ -18,8 +18,8 @@ class Artist
     end
 
     def genres
-      songs.genre
-    
+      Song.all,genre
+
     end
 
     def self.all
