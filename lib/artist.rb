@@ -18,7 +18,7 @@ class Artist
     end
 
     def genres
-      x = songs.collect.first {|songs| songs.genre}
+      x = songs.first.collect {|songs| songs.genre}
 
     end
 
